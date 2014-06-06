@@ -1,10 +1,10 @@
-Endpoint: user
-==============
+Collection: user
+================
 
-Method: details
----------------
-Format: __JSON__, __XML__ <br>
-HTTP Supported: __GET__
+Endpoint: details
+-----------------
+Response Supported: __JSON__, __XML__ <br>
+Request HTTP Supported: __GET__
 
 > Get basic information about an user.
 

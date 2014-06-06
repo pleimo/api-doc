@@ -1,11 +1,13 @@
 Class: user
 ===========
 
-> Methods
+> User
 
-Collections:
-------------
+Endpoints:
+----------
 
-* details
-* create
-
+* [details] ()
+* [favs] ()
+* [playlists] ()
+* [auth] ()
+* [create] ()
