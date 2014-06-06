@@ -3,24 +3,21 @@ Class: user
 
 Method: details
 -----------
-Format: __JSON__, __XML__
+Format: __JSON__, __XML__ <br>
 HTTP Supported: __GET__
 
 > Get basic information about an user.
 
-### Example URLs:
-
-__JSON:__ `http://api.pleimo.com/user/details/json?id=f0c2b1ada2c988673eb887f23270b684e6310ce6&api_key=bd7203c61a13f6a8a6a039255cd26359`
+#### Example URLs:
+__JSON:__ `http://api.pleimo.com/user/details/json?id=f0c2b1ada2c988673eb887f23270b684e6310ce6&api_key=bd7203c61a13f6a8a6a039255cd26359` <br>
 __XML:__ `http://api.pleimo.com/user/details/xml?id=f0c2b1ada2c988673eb887f23270b684e6310ce6&api_key=bd7203c61a13f6a8a6a039255cd26359`
 
-### Params:
-
+#### Params:
 | Parameter     | Required?     | Value      | Description          |
 | ------------- | ------------- | ---------- | -------------------- |
 | id            | yes           | `string`   | The User token (ID)  |
 
-### Sample Response:
-
+#### Sample Response:
 ```json
 {
     "status": {
@@ -59,6 +56,6 @@ __XML:__ `http://api.pleimo.com/user/details/xml?id=f0c2b1ada2c988673eb887f23270
 }
 ```
 
-### Version:
-__v1.0__
+#### Version:
+__v1.0__ <br>
 *Last Revision: 2013/11/22*
