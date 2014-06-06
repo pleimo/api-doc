@@ -3,8 +3,8 @@ Class: user
 
 > Methods
 
-Sections:
----------
+Collections:
+------------
 
 * details
 * create
