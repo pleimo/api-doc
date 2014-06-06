@@ -8,25 +8,18 @@ HTTP Supported: __GET__
 
 > Get basic information about an user.
 
-Example URLs:
--------------
+### Example URLs:
 
-Params:
--------
+__JSON:__ `http://api.pleimo.com/user/details/json?id=f0c2b1ada2c988673eb887f23270b684e6310ce6&api_key=bd7203c61a13f6a8a6a039255cd26359`
+__XML:__ `http://api.pleimo.com/user/details/xml?id=f0c2b1ada2c988673eb887f23270b684e6310ce6&api_key=bd7203c61a13f6a8a6a039255cd26359`
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+### Params:
 
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
+| Parameter     | Required?     | Value      | Description          |
+| ------------- | ------------- | ---------- | -------------------- |
+| id            | yes           | `string`   | The User token (ID)  |
 
-Sample Response:
-----------------
+### Sample Response:
 
 ```json
 {
@@ -65,3 +58,7 @@ Sample Response:
     }
 }
 ```
+
+### Version:
+__v1.0__
+*Last Revision: 2013/11/22*
